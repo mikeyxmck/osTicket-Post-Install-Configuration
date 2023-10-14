@@ -24,7 +24,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Allow Users to create tickets
 - Configure Agents (workers) & Users (customers)
 - Configure SLA
-- Configure Help Topics
 
 <h2>Configuration Steps</h2>
 
@@ -69,4 +68,36 @@ This tutorial outlines the post-install configuration of the open-source help de
   
   6)  Return back to the 'Agent' Tab and click on 'Add New Agent.' for the First/Last name, enter 'Jane Smith', and for the username, put 'Jane.Smith. ' This will be your Agent. For the password, make sure you click on 'Set Password' and unclick both squares requiring the agent to change their password. (NOTE: DO NOT DO THIS ON THE ACTUAL JOB.) 
 </p>
+
+
+<p>
+<img src="https://i.imgur.com/kvCnRm3.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  <img src="https://i.imgur.com/fKSAdIj.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  <img src="https://i.imgur.com/zps9nIF.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+  <img src="https://i.imgur.com/jf9Pvtf.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+</p>
+<p>
+7) Next, go and click on the 'Agent Panel' This is where you will create a 'User' account for the client/customer to use to actually create the tickets.  Go click on the 'User' tab, then 'Add New User.' The Username will be Karen.Johnson. It's a pretty similar process to creating the 'Agent', but after you put in the information, you will need to click 'Register' on the account. Upon doing so you will need to uncheck the box that would reset the password. (NOTE: ONCE AGAIN, DO NOT DO THIS ON THE ACTUAL JOB.)
+
+
+<img src="https://i.imgur.com/53YeoCa.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/zA9DwJ1.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/irtil19.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+8) Finally, you will be creating the SLAs for the ticketing system; go back to the 'Admin Panel' and click the 'Manage tab, then 'SLA' in the drop-down, then click 'Add New SLA Plan'
+9) You will create all three SLA plans:
+     -Sev-A, which only has a 1-hour grace period and can happen 24/7
+     -Sev-B, which has only a 4-hour grace period and can happen 24/7
+     -Sev-C, which has an 8-hour grace period and can only happen during business hours.
+   (NOTE: Change the grace period and schedule according to each Sev Level.)
+
+   There you have it! You have successfully finished the post-installation of the OsTicketing System! creating Roles, Departments, all the way to even the SLA's!
+</p>
+
 <br />
